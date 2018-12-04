@@ -115,7 +115,7 @@ def draw_squares_from_circle(n, circle, window):
     circle.attach_to(window)
     rect = rg.Rectangle(rg.Point(circle.center.x - circle.radius, circle.center.y - circle.radius), rg.Point(circle.center.x+circle.radius, circle.center.y +circle.radius))
     rect.attach_to(window)
-    window.render()
+    window.render() 
     for x in range(n):
         rect.attach_to(window)
     window.render()
